@@ -1,29 +1,39 @@
-# vue-cli1
+# vue
+- 项目组件化，提高代码可写性
+- data --VM--> view 
+  - [data, computed] [components, router] [props, slots]  --template--> view
 
-## Project setup
-```
-npm install
-```
+  - view --[native events, custom events] --> data
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+[官方文档](https://vuejs.org/v2/guide)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+数据 + 模板 --> 视图
+- 数据
+  - 有哪些数据
+  - 如何修改数据
+- 模板
+  - 模板怎么写
+- 视图
+  - 
 
-### Run your tests
-```
-npm run test
-```
+## [template](./template.md)
 
-### Lints and fixes files
-```
-npm run lint
-```
+## [model](./model.md)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## [vm](./vm.md)
+
+## [events](./v-on.md)
+
+## [组件](./components.md)
+
+## [instance](./instance.md)
+
+## think like vue
+- where is data from (take child components as data)
+- how to render (template)
+- function
+  - events chain
+  - lifecycle function
+  - watch
+
+Focus on data ,data will immediately effect view.

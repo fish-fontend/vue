@@ -1,12 +1,15 @@
 import Vue from 'vue'
 import App from './App.vue'
-import router from './router'
-import store from './store'
+
+// Math = 'Math'
+// 组件中可以使用
+
+// var a = 'a'
+// 组件中不能使用
 
 Vue.config.productionTip = false
 
-new Vue({
-  router,
-  store,
+var vm = new Vue({
   render: h => h(App)
 }).$mount('#app')
+console.info(vm)
