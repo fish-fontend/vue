@@ -10,7 +10,7 @@ vue组件只是语法糖，其实会解析成下面的函数
 vue 实例上有两种属性
 data computed props 上的内容会被直接挂载到实例上；自带的魔法属性
 
-假设this是当前组件实例，vm是根实例
+假设this是当前组件实例，vm是根实例。$el $refs $store $router 子节点和父节点是一致的
 
 - vm.$children
   子组件数组
